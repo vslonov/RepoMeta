@@ -1,0 +1,143 @@
+Script started on Mon 05 Oct 2020 10:17:16 PM EDT
+[vslonovs@sol28 ~]$ mkdir Lab6
+mkdir: cannot create directory ‘Lab6’: File exists
+[vslonovs@sol28 ~]$ cd [K[K[Kmkdir LabSix
+[vslonovs@sol28 ~]$ cd LabSix
+[vslonovs@sol28 LabSix]$ vim HJ[Kellow[KWorld.java
+[?1h=[1;24r[m[m[0m[H[J[24;1H"HelloWorld.java" [New File][2;1H[1m~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[0m[24;63H0,0-1[9CAll[1;1Hb[24;63H1,1  [1;1H[24;1H1 line less; before #1  0 seconds ago[24;63H[K[1;1H[K[24;63H0,0-1[9CAll[1;1H[24;1H[1m-- INSERT --[0m[24;14H[K[24;63H0,1[11CAll[1;1Hc[24;63H1,2[1;2H[1;1H[K[24;65H1[1;1Hi[24;65H2[1;2Hi[24;65H3[1;3H[1;2H[K[24;65H2[1;2H[1;1H[K[24;65H1[1;1Hp[24;65H2[1;2Hu[24;65H3[1;3Hb[24;65H4[1;4Hl[24;65H5[1;5Hi[24;65H6[1;6Hc[24;65H7[1;7H[24;65H8[1;8Hc[24;65H9[1;9Hl[24;65H10[1;10Ha[24;66H1[1;11Hs[24;66H2[1;12Hs[24;66H3[1;13H[24;66H4[1;14HH[24;66H5[1;15He[24;66H6[1;16Hl[24;66H7[1;17Hl[24;66H8[1;18Ho[24;66H9[1;19HW[24;65H20[1;20Ho[24;66H1[1;21Hr[24;66H2[1;22Hl[24;66H3[1;23Hd[24;66H4[1;24H{[24;66H5[1;25H[2;1H[K[24;63H2,1 [2;1H
+p[24;63H3,2[3;2Hu[24;65H3[3;3Hb[24;65H4[3;4Hl[24;65H5[3;5Hi[24;65H6[3;6Hc[24;65H7[3;7H[24;65H8[3;8Hs[24;65H9[3;9Ht[24;65H10[3;10Ha[24;66H1[3;11Ht[24;66H2[3;12Hi[24;66H3[3;13Hc[24;66H4[3;14H[24;66H5[3;15Hv[24;66H6[3;16Ho[24;66H7[3;17Hi[24;66H8[3;18Hd[24;66H9[3;19H[24;65H20[3;20Hm[24;66H1[3;21Ha[24;66H2[3;22Hi[24;66H3[3;23Hn[24;66H4[3;24H([24;66H5[3;25HS[24;66H6[3;26Ht[24;66H7[3;27Hr[24;66H8[3;28Hi[24;66H9[3;29Hn[24;65H30[3;30Hg[24;66H1[3;31H[[24;66H2[3;32H][24;66H3[3;33H[24;66H4[3;34Ha[24;66H5[3;35Hr[24;66H6[3;36Hg[24;66H7[3;37Hs[24;66H8[3;38H([24;66H9[3;39H)[24;65H40[3;40H[3;39H[K[24;65H39[3;39H[3;38H[K[24;66H8[3;38H)[24;66H9[3;39H{[24;65H40[3;40H[4;1H[K[24;63H4,1 [4;1H[5;1H[K[24;63H5[5;1HS[24;65H2[5;2Hy[24;65H3[5;3Hs[24;65H4[5;4Ht[24;65H5[5;5He[24;65H6[5;6Hm[24;65H7[5;7H.[24;65H8[5;8Ho[24;65H9[5;9Hu[24;65H10[5;10Ht[24;66H1[5;11H.[24;66H2[5;12Hr[24;66H3[5;13H[5;12H[K[24;66H2[5;12Hp[24;66H3[5;13Hr[24;66H4[5;14Hi[24;66H5[5;15Hn[24;66H6[5;16Ht[24;66H7[5;17Hl[24;66H8[5;18Hn[24;66H9[5;19H([24;65H20[5;20H"Hello[24;66H6[5;26HW[24;66H7[5;27Ho[24;66H8[5;28H[5;27H[K[24;66H7[5;27H[5;26H[K[24;66H6[5;26H[24;66H7[5;27HW[24;66H8[5;28Ho[24;66H9[5;29Hr[24;65H30[5;30Hl[24;66H1[5;31Hd[24;66H2[5;32H"[24;66H3[5;33H)[24;66H4[5;34H;[24;66H5[5;35H[6;1H[K[24;63H6,1 [6;1H[7;1H[K[24;63H7[7;1H}[24;65H2[7;2H[8;1H[K[24;63H8,1[8;1H[9;1H[K[24;63H9[9;1H}[24;65H2[9;2Hi[24;65H3[9;3Hi[24;65H4[9;4H[9;3H[K[24;65H3[9;3H[9;2H[K[24;65H2[9;2H[24;1H[K[9;1H[24;63H9,1[11CAll[9;1H[24;63H[K[24;1H::wq"HelloWorld.java" [New] 9L, 108C written[?1l>
+[vslonovs@sol28 LabSix]$ git init 
+Initialized empty Git repository in /users1/st/vslonovs/LabSix/.git/
+[vslonovs@sol28 LabSix]$ git add HelloWorld.java
+[vslonovs@sol28 LabSix]$ git commit -m 
+error: switch `m' requires a value
+usage: git commit [options] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+[vslonovs@sol28 LabSix]$ git commit -m "Added hello world"
+[master (root-commit) 47da245] Added hello world
+ 1 file changed, 9 insertions(+)
+ create mode 100644 HelloWorld.java
+[vslonovs@sol28 LabSix]$ git branch -m [K[KM main
+[vslonovs@sol28 LabSix]$ git remode [K[K[Kte add origin https://github.com/vslonov/Repo1. gt[Kit
+[vslonovs@sol28 LabSix]$ git push -u opri[K[K[Krigin main
+Username for 'https://github.com': vslonov
+Password for 'https://vslonov@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vslonov/Repo1.git
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+[vslonovs@sol28 LabSix]$ vim HelloWorld.java
+[?1h=[1;24r[m[m[0m[H[J[24;1H"HelloWorld.java" 9L, 108C[1;1Hpublic class HelloWorld{
+
+public static void main(String[] args){
+
+System.out.println("Hello World");
+
+}
+
+}
+[1m~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[0m[24;63H9,1[11CAll[9;1H[24;63H8,0-1[8;1H[24;1H[1m-- INSERT --[0m[24;13H[K[24;63H8,1[11CAll[8;1H[24;63H7[7;1H[24;63H6[6;1HS[24;65H2[6;2Hy[24;65H3[6;3Hs[24;65H4[6;4Ht[24;65H5[6;5He[24;65H6[6;6Hm[24;65H7[6;7H.[24;65H8[6;8Ho[24;65H9[6;9Hu[24;65H10[6;10Ht[24;66H1[6;11H.[24;66H2[6;12Hp[24;66H3[6;13Hr[24;66H4[6;14Hi[24;66H5[6;15Hn[24;66H6[6;16Ht[24;66H7[6;17Hl[24;66H8[6;18Hn[24;66H9[6;19H([24;65H20[6;20H"[24;66H1[6;21HT[24;66H2[6;22Ho[24;66H3[6;23Hd[24;66H4[6;24Ha[24;66H5[6;25Hy[24;66H6[6;26Hs[24;66H7[6;27H[24;66H8[6;28Hd[24;66H9[6;29Ha[24;65H30[6;30Ht[24;66H1[6;31He[24;66H2[6;32H[24;66H3[6;33Hi[24;66H4[6;34Hs[24;66H5[6;35H[24;66H6[6;36H1[24;66H7[6;37H-[24;66H8[6;38H5[24;66H9[6;39H-[24;65H40[6;40H[6;39H[K[24;65H39[6;39H[6;38H[K[24;66H8[6;38H[6;37H[K[24;66H7[6;37H0[24;66H8[6;38H5[24;66H9[6;39H-[24;65H40[6;40H[6;39H[K[24;65H39[6;39H[6;38H[K[24;66H8[6;38H-[24;66H9[6;39H5[24;65H40[6;40H-[24;66H1[6;41H2[24;66H2[6;42H0[24;66H3[6;43H"[24;66H4[6;44H)[24;66H5[6;45H;[24;66H6[6;46H[24;1H[K[6;45H[24;63H6,45[10CAll[6;45H[24;63H[K[24;1H::wq"HelloWorld.java" 9L, 153C written[?1l>
+[vslonovs@sol28 LabSix]$ git add HelloWorld.java
+[vslonovs@sol28 LabSix]$ git commit -m "Added date"
+[main 23bda5f] Added date
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[vslonovs@sol28 LabSix]$ git push 
+Username for 'https://github.com': s
+Password for 'https://stayingUp3be@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/vslonov/Repo1.git/'
+[vslonovs@sol28 LabSix]$ git push
+Username for 'https://github.com': vslonov
+Password for 'https://vslonov@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 368 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vslonov/Repo1.git
+   47da245..23bda5f  main -> main
+[vslonovs@sol28 LabSix]$ exit
+exit
+
+Script done on Mon 05 Oct 2020 10:21:19 PM EDT
