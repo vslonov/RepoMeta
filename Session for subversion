@@ -1,0 +1,205 @@
+Script started on Mon 05 Oct 2020 11:04:45 PM EDT
+[vslonovs@sol28 ~]$ cd Lab6Part2^M
+[vslonovs@sol28 Lab6Part2]$ ^Gsvnadmin create --fs-type fsfs /var/svn/repos^M
+svnadmin: E000002: Repository creation failed^M
+svnadmin: E000002: Could not create top-level directory^M
+svnadmin: E000002: Can't create directory '/var/svn/repos': No such file or directory^M
+[vslonovs@sol28 Lab6Part2]$ svn co --depth empty https://github.com/vslonov/Repo ^M2.git^M
+Checked out revision 0.^M
+[vslonovs@sol28 Lab6Part2]$ c^H^[[Kmkdir trunk^M
+[vslonovs@sol28 Lab6Part2]$ cd trunk^M
+[vslonovs@sol28 trunk]$ vim HelloWorld.java^M
+^[[?1h^[=^[[1;24r^[[m^[[m^[[0m^[[H^[[J^[[24;1H"HelloWorld.java" [New File]^[[2;1H^[[1m~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^[[0m^[[24;63H0,0-1^[[9CAll^[[1;1H^[[24;1H^[[1m-- INSERT --^[[0m^[[24;13H^[[K^[[24;63H0,1^[[11CAll^[[1;1Hpublic class HelloWorld{^[[2;1H^[[K^[[3;1Hpublic static void main(String[] args){^[[4;1H^[[K^[[5;1HSystem.out.println("Hello World");^M
+System.out.println("Todays date is 10-5-20");^M}^[[8;1H^[[K^[[9;1H}^[[24;63H9,2^[[9;2H^[[24;63H7^[[7;2H^[[24;63H6^[[6;2H^[[24;65H1^[[6;1H^[[5;23r^[[23;1H^M
+                                                              35,1           7%
+^[[1;24r^[[5;21HHello World");System.out.println("Todays date is 10-5-20");^[[23;1H^[[1m~^[[0m^[[24;63H^[[K^[[24;63H5,35^[[10CAll^[[5;35H^HSystem.out.println("Todays date is 10-5-20");^[[5;79H^[[K^[[24;66H4^[[5;34H^HSystem.out.println("Todays date is 10-5-20");^[[5;78H^[[K^[[24;66H3^[[5;33H^HSystem.out.println("Todays date is 10-5-20");^[[5;77H^[[K^[[24;66H2^[[5;32H^HSystem.out.println("Todays date is 10-5-20");^[[5;76H^[[K^[[24;66H1^[[5;31H^HSystem.out.println("Todays date is 10-5-20");^[[5;75H^[[K^[[24;66H0^[[5;30H^HSystem.out.println("Todays date is 10-5-20");^[[5;74H^[[K^[[24;65H29^[[5;29H^HSystem.out.println("Todays date is 10-5-20");^[[5;73H^[[K^[[24;66H8^[[5;28H^HSystem.out.println("Todays date is 10-5-20");^[[5;72H^[[K^[[24;66H7^[[5;27H^HSystem.out.println("Todays date is 10-5-20");^[[5;71H^[[K^[[24;66H6^[[5;26H^HSystem.out.println("Todays date is 10-5-20");^[[5;70H^[[K^[[24;66H5^[[5;25H^HSystem.out.println("Todays date is 10-5-20");^[[5;69H^[[K^[[24;66H4^[[5;24H^HSystem.out.println("Todays date is 10-5-20");^[[5;68H^[[K^[[24;66H3^[[5;23H^HSystem.out.println("Todays date is 10-5-20");^[[5;67H^[[K^[[24;66H2^[[5;22H^HSystem.out.println("Todays date is 10-5-20");^[[5;66H^[[K^[[24;66H1^[[5;21H^HSystem.out.println("Todays date is 10-5-20");^[[5;65H^[[K^[[24;66H0^[[5;20H^HSystem.out.println("Todays date is 10-5-20");^[[5;64H^[[K^[[24;65H19^[[5;19H^HSystem.out.println("Todays date is 10-5-20");^[[5;63H^[[K^[[24;66H8^[[5;18H^HSystem.out.println("Todays date is 10-5-20");^[[5;62H^[[K^[[24;66H7^[[5;17H^HSystem.out.println("Todays date is 10-5-20");^[[5;61H^[[K^[[24;66H6^[[5;16H^HSystem.out.println("Todays date is 10-5-20");^[[5;60H^[[K^[[24;66H5^[[5;15H^HSystem.out.println("Todays date is 10-5-20");^[[5;59H^[[K^[[24;66H4^[[5;14H^HSystem.out.println("Todays date is 10-5-20");^[[5;58H^[[K^[[24;66H3^[[5;13H^HSyste
+                                                              36,1          14%
+^[[1;24r^[[23;1H^[[1m~^[[0m^[[24;63H^[[K^[[24;63H4,1^[[11CAll^[[4;1H^[[3;40HSystem.out.println("Todays date is 10-5-22^[[4;1H0");^[[4;5H^[[K^[[24;63H3,40^[[3;40H^[[3;40H^[[K^[[4;1HSystem.out.println("Todays date is 10-5-20");^[[24;63H4,1 ^[[4;1H^[[5;23r^[[5;1H^[M^[[1;24r^[[4;1H^[[K^[[5;1HSystem.out.println("Todays date is 10-5-20");^[[24;63H^[[K^[[24;63H5,1^[[11CAll^[[5;1H^[[24;65H2^[[5;2H^[[24;65H3^[[5;3H^[[24;65H4^[[5;4H^[[24;65H5^[[5;5H^[[24;65H6^[[5;6H^[[24;65H7^[[5;7H^[[24;65H8^[[5;8H^[[24;65H9^[[5;9H^[[24;65H10^[[5;10H^[[24;66H1^[[5;11H^[[24;66H2^[[5;12H^[[24;66H3^[[5;13H^[[24;66H4^[[5;14H^[[24;66H5^[[5;15H^[[24;66H6^[[5;16H^[[24;66H7^[[5;17H^[[24;66H8^[[5;18H^[[24;66H9^[[5;19H^[[24;65H20^[[5;20H^[[24;66H1^[[5;21H^[[24;66H2^[[5;22H^[[24;66H3^[[5;23H^[[24;66H4^[[5;24H^[[24;66H5^[[5;25H^[[24;66H6^[[5;26H^[[24;66H7^[[5;27H^[[24;66H8^[[5;28H^[[24;66H9^[[5;29H^[[24;65H30^[[5;30H^[[24;66H1^[[5;31H^[[24;66H2^[[5;32H^[[24;66H3^[[5;33H^[[24;66H4^[[5;34H^[[24;66H5^[[5;35H^[[24;66H6^[[5;36H^[[24;66H7^[[5;37H^[[24;66H8^[[5;38H^[[24;66H9^[[5;39H^[[24;65H40^[[5;40H^[[24;66H1^[[5;41H^[[24;66H2^[[5;42H^[[24;66H3^[[5;43H^H");^[[5;45H^[[K^[[24;66H2^[[5;42H^H");^[[5;44H^[[K^[[24;66H1^[[5;41H^H");^[[5;43H^[[K^[[24;66H0^[[5;40H^H");^[[5;42H^[[K^[[24;65H39^[[5;39H^H");^[[5;41H^[[K^[[24;66H8^[[5;38H^H");^[[5;40H^[[K^[[24;66H7^[[5;37H^H");^[[5;39H^[[K^[[24;66H6^[[5;36H^H");^[[5;38H^[[K^[[24;66H5^[[5;35H^H");^[[5;37H^[[K^[[24;66H4^[[5;34H^H");^[[5;36H^[[K^[[24;66H3^[[5;33H^H");^[[5;35H^[[K^[[24;66H2^[[5;32H^H");^[[5;34H^[[K^[[24;66H1^[[5;31H^H");^[[5;33H^[[K^[[24;66H0^[[5;30H^H");^[[5;32H^[[K^[[24;65H29^[[5;29H^H");^[[5;31H^[[K^[[24;66H8^[[5;28H^H");^[[5;30H^[[K^[[24;66H7^[[5;27H^H");^[[5;29H^[[K^[[24;66H6^[[5;26H^H");^[[5;28H^[[K^[[24;66H5^[[5;25H^H");^[[5;27H^[[K^[[24;66H4^[[5;24H^H");^[[5;26H^[[K^[[24;66H3^[[5;23H^H");^[[5;2
+                                                              37,1          14%
+^[[1;24r^[[6;1H::wq");^[[23;1H^[[1m~^[[0m^[[24;63H^[[K^[[24;63H6,5^[[11CAll^[[6;5H^H");^[[6;7H^[[K^[[24;65H4^[[6;4H^H");^[[6;6H^[[K^[[24;65H3^[[6;3H^H");^[[6;5H^[[K^[[24;65H2^[[6;2H^H");^[[6;4H^[[K^[[24;65H1^[[6;1H^[[24;65H2^[[6;2H^[[24;65H3^[[6;3H^[[24;65H4^[[6;4H^[[6;3H^[[K^[[24;65H3^[[6;3H^[[6;2H^[[K^[[24;65H2^[[6;2H^[[6;1H^[[K^[[24;65H1^[[6;1H^[[5;23r^[[23;1H^M
+^[[1;24r^[[5;1HSystem.out.println("Hello World^[[23;1H^[[1m~^[[0m^[[24;63H^[[K^[[24;63H5,32^[[10CAll^[[5;32H)^[[24;66H3^[[5;33H^[[5;32H^[[K^[[24;66H2^[[5;32H^[[6;23r^[[6;1H^[M^[[1;24r^[[24;63H^[[K^[[24;63H6,1^[[11CAll^[[6;1H"^[[24;65H2^[[6;2H^[[6;1H^[[K^[[24;65H1^[[6;1H^[[5;23r^[[23;1H^M
+^[[1;24r^[[5;1HSystem.out.println("Hello World^[[23;1H^[[1m~^[[0m^[[24;63H^[[K^[[24;63H5,32^[[10CAll^[[5;32H"^[[24;66H3^[[5;33H);^[[24;66H5^[[5;35H^[[24;1H^[[K^[[5;34H^[[24;63H5,34^[[10CAll^[[5;34H^[[24;63H^[[K^[[24;1H::wq^M"HelloWorld.java" [New] 8L, 107C written^M^[[?1l^[>^M^M
+[vslonovs@sol28 trunk]$ cd ..^M
+[vslonovs@sol28 Lab6Part2]$ svu^H^[[Kn up trunk^M
+Skipped 'trunk'^M
+Summary of conflicts:^M
+  Skipped paths: 1^M
+[vslonovs@sol28 Lab6Part2]$ svn up --depth empty branches^M
+Skipped 'branches'^M
+Summary of conflicts:^M
+  Skipped paths: 1^M
+[vslonovs@sol28 Lab6Part2]$ svn co svn up --depth empty branches^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Khttps://github.com/vslonov/Repo2.git^M
+svn: E125002: 'svn' does not appear to be a URL^M
+[vslonovs@sol28 Lab6Part2]$ svon^H^[[K^H^[[Kn cop^H^[[K https://github.com/vslonov/Repo2.git^M
+Checked out revision 0.^M
+[vslonovs@sol28 Lab6Part2]$ svn add trunk^M
+svn: E155007: '/users1/st/vslonovs/Lab6Part2' is not a working copy^M
+[vslonovs@sol28 Lab6Part2]$ svn up^M
+Skipped '.'^M
+Summary of conflicts:^M
+  Skipped paths: 1^M
+[vslonovs@sol28 Lab6Part2]$ svn commi m^H^[[K-^H^[[K^H^[[Kt -m "ad"^M
+svn: E155007: '/users1/st/vslonovs/Lab6Part2' is not a working copy^M
+[vslonovs@sol28 Lab6Part2]$ sv ^H^[[Kn^H^[[Kn add^M
+svn: E205001: Try 'svn help' for more info^M
+svn: E205001: Not enough arguments provided^M
+[vslonovs@sol28 Lab6Part2]$ svn add .^M
+svn: E155007: '/users1/st/vslonovs/Lab6Part2' is not a working copy^M
+[vslonovs@sol28 Lab6Part2]$ svn cleany^H^[[Kup^M
+svn: E155007: '/users1/st/vslonovs/Lab6Part2' is not a working copy directory^M
+[vslonovs@sol28 Lab6Part2]$ svnadmin create ^M
+svnadmin: E205000: Repository argument required^M
+[vslonovs@sol28 Lab6Part2]$ svn create .^M
+Unknown command: 'create'^M
+Type 'svn help' for usage.^M
+[vslonovs@sol28 Lab6Part2]$ svn cre^H^[[K^H^[[K^H^[[K^H^[[Kadmin create .^M
+svnadmin: E200011: Repository creation failed^M
+svnadmin: E200011: Could not create top-level directory^M
+svnadmin: E200011: '.' exists and is non-empty^M
+[vslonovs@sol28 Lab6Part2]$ cd trunk^M
+[vslonovs@sol28 trunk]$ c^H^[[Ksvn ^H^[[Kadmin ac^H^[[K^H^[[Kcreate .^M
+svnadmin: E200011: Repository creation failed^M
+svnadmin: E200011: Could not create top-level directory^M
+svnadmin: E200011: '.' exists and is non-empty^M
+[vslonovs@sol28 trunk]$ cd ..^M
+[vslonovs@sol28 Lab6Part2]$ cd ..^M
+[vslonovs@sol28 ~]$ svm^H^[[Knadmin create .^M
+svnadmin: E200011: Repository creation failed^M
+svnadmin: E200011: Could not create top-level directory^M
+svnadmin: E200011: '.' exists and is non-empty^M
+[vslonovs@sol28 ~]$ mkdir tepo^H^[[K^H^[[K^H^[[Keo^H^[[Kpo^M
+[vslonovs@sol28 ~]$ cd tepo^M
+[vslonovs@sol28 tepo]$ svnadmin create .^M
+[vslonovs@sol28 tepo]$ svn co https://github.com/vslonov/Repo2.git^M
+Checked out revision 0.^M
+[vslonovs@sol28 tepo]$ mkdir trunk^M
+[vslonovs@sol28 tepo]$ vim file.txt^M
+^[[?1h^[=^[[1;24r^[[m^[[m^[[0m^[[H^[[J^[[24;1H"file.txt" [New File]^[[2;1H^[[1m~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^[[0m^[[24;63H0,0-1^[[9CAll^[[1;1H^G^[[24;1H^[[1m-- INSERT --^[[0m^[[24;13H^[[K^[[24;63H0,1^[[11CAll^[[1;1Hf^[[24;63H1,2^[[1;2Hi^[[24;65H3^[[1;3Hl^[[24;65H4^[[1;4He^[[24;65H5^[[1;5H^[[24;65H6^[[1;6Ht^[[24;65H7^[[1;7Ho^[[24;65H8^[[1;8H^[[24;65H9^[[1;9Ht^[[24;65H10^[[1;10Hr^[[24;66H1^[[1;11Ha^[[24;66H2^[[1;12Hc^[[24;66H3^[[1;13Hk^[[24;66H4^[[1;14H^[[24;66H5^[[1;15H:^[[24;66H6^[[1;16H;^[[24;66H7^[[1;17Hw^[[24;66H8^[[1;18Hq^[[24;66H9^[[1;19H^[[2;1H^[[K^[[24;63H2,1 ^[[2;1H^[[1m~^[[0m^[[24;63H1,19^[[1;19H^[[1;18H^[[K^[[24;66H8^[[1;18H^[[1;17H^[[K^[[24;66H7^[[1;17H^[[1;16H^[[K^[[24;66H6^[[1;16H^[[1;15H^[[K^[[24;66H5^[[1;15H^[[24;1H^[[K^[[1;14H^[[24;63H1,14^[[10CAll^[[1;14H^[[24;63H^[[K^[[24;1H::wq^M"file.txt" [New] 1L, 15C written^M^[[?1l^[>^M^M
+[vslonovs@sol28 tepo]$ ls^M^[[0m^[[01;34mconf^[[0m  ^[[01;34mdb^[[0m  file.txt  format  ^[[01;34mhooks^[[0m  ^[[01;34mlocks^[[0m  README.txt  ^[[01;34mRepo2.git^[[0m  ^[[01;34mtrunk^[[0m^M
+[vslonovs@sol28 tepo]$ cd trunk^M
+[vslonovs@sol28 trunk]$ vim file^M
+^[[?1h^[=^[[1;24r^[[m^[[m^[[0m^[[H^[[J^[[24;1H"file" [New File]^[[2;1H^[[1m~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M~^M~^M~^M~^M~^M~^M~^M~^M~^M
+~^M
+~^M~^M~^M
+~^M~^[[0m^[[24;63H0,0-1^[[9CAll^[[1;1H^[[24;1H^[[1m-- INSERT --^[[0m^[[24;13H^[[K^[[24;63H0,1^[[11CAll^[[1;1Hf^[[24;63H1,2^[[1;2Hi^[[24;65H3^[[1;3Hl^[[24;65H4^[[1;4He^[[24;65H5^[[1;5H^[[24;65H6^[[1;6Ht^[[24;65H7^[[1;7Ho^[[24;65H8^[[1;8H^[[24;65H9^[[1;9Ht^[[24;65H10^[[1;10Hr^[[24;66H1^[[1;11Ha^[[24;66H2^[[1;12Hc^[[24;66H3^[[1;13Hk^[[24;66H4^[[1;14H^[[2;1H^[[K^[[24;63H2,1 ^[[2;1H^[[24;1H^[[K^[[2;1H^[[24;63H2,0-1^[[9CAll^[[2;1H^[[24;63H^[[K^[[24;1H:;wq^[[24;4H^[[K^[[24;4H^[[24;3H^[[K^[[24;3H^[[24;2H^[[K^[[24;2H:wq^M"file" [New] 2L, 15C written^M^[[?1l^[>^M^M
+[vslonovs@sol28 trunk]$ cd ..^M
+[vslonovs@sol28 tepo]$ svn add trunk^M
+svn: E155007: '/users1/st/vslonovs/tepo' is not a working copy^M
+[vslonovs@sol28 tepo]$  ^H^[[Kcd ..^M
+[vslonovs@sol28 ~]$ svn add tepo^M
+svn: E155007: '/users1/st/vslonovs' is not a working copy^M[vslonovs@sol28 ~]$ c^H^[[Ksvn admin^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Kadmin .^H^[[Kcreate .^M
+svnadmin: E200011: Repository creation failed^M
+svnadmin: E200011: Could not create top-level directory^M
+svnadmin: E200011: '.' exists and is non-empty^M
+[vslonovs@sol28 ~]$ cd te[p^H^[[K^H^[[Kpo^M
+[vslonovs@sol28 tepo]$ svn co https://github.com/vslonov/Repo2.git .^M
+Checked out revision 0.^M
+[vslonovs@sol28 tepo]$ svn add trunk^M
+A         trunk^MA         trunk/file^M[vslonovs@sol28 tepo]$ svn commit -m "add file"^H^[[K"^MAuthentication realm: <https://github.com:443> GitHub^MPassword for 'vslonov': ^M^M-----------------------------------------------------------------------^M
+ATTENTION!  Your password for authentication realm:^M
+^M
+   <https://github.com:443> GitHub^M
+^M
+can only be stored to disk unencrypted!  You are advised to configure^M
+your system so that Subversion can store passwords encrypted, if^M
+possible.  See the documentation for details.^M^M
+You can avoid future appearances of this warning by setting the value^M
+of the 'store-plaintext-passwords' option to either 'yes' or 'no' in^M
+'/users1/st/vslonovs/.subversion/servers'.^M
+-----------------------------------------------------------------------^M
+Store password unencrypted (yes/no)? no^M
+Adding         trunk^M
+Adding         trunk/file^M
+Transmitting file data .^M
+Committed revision 1.^M
+[vslonovs@sol28 tepo]$ cd trunk^M
+[vslonovs@sol28 trunk]$ v^H^[[Kvim file^M^[[?1h^[=^[[1;24r^[[m^[[m^[[0m^[[H^[[J^[[24;1H"file" 2L, 15C^[[1;1Hfile to track^M
+^M
+^[[1m~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M
+~^M~^[[0m^[[24;63H2,0-1^[[9CAll^[[2;1H^[[24;1H^[[1m-- INSERT --^[[0m^[[24;13H^[[K^[[24;63H2,1^[[11CAll^[[2;1Ha^[[24;65H2^[[2;2Hd^[[24;65H3^[[2;3Hd^[[24;65H4^[[2;4Hi^[[24;65H5^[[2;5Hn^[[24;65H6^[[2;6Hg^[[24;65H7^[[2;7H^[[24;65H8^[[2;8Hm^[[24;65H9^[[2;9Ho^[[24;65H10^[[2;10Hr^[[24;66H1^[[2;11He^[[24;66H2^[[2;12H^[[24;66H3^[[2;13Ht^[[24;66H4^[[2;14Ho^[[24;66H5^[[2;15H^[[24;66H6^[[2;16Hf^[[24;66H7^[[2;17Hi^[[24;66H8^[[2;18Hl^[[24;66H9^[[2;19He^[[24;65H20^[[2;20H^[[3;1H^[[K^[[24;63H3,1 ^[[3;1H:^[[24;65H2^[[3;2H:^[[24;65H3^[[3;3Hw^[[24;65H4^[[3;4Hq^[[24;65H5^[[3;5H^[[3;4H^[[K^[[24;65H4^[[3;4H^[[3;3H^[[K^[[24;65H3^[[3;3H^[[3;2H^[[K^[[24;65H2^[[3;2H^[[3;1H^[[K^[[24;65H1^[[3;1H^[[24;1H^[[K^[[3;1H^[[24;63H3,0-1^[[9CAll^[[3;1H^[[24;63H^[[K^[[24;1H::wq^M"file" 3L, 35C written^M^[[?1l^[>^M^M
+[vslonovs@sol28 trunk]$ cd ..^M
+[vslonovs@sol28 tepo]$ svn add trunk^Msvn: warning: W150002: '/users1/st/vslonovs/tepo/trunk' is already under version control^Msvn: E200009: Could not add all targets because some targets are already versioned^M
+svn: E200009: Illegal target for the requested operation^M
+[vslonovs@sol28 tepo]$ sv ^H^[[Kn up^M
+Updating '.':^M
+A    branches^M
+Updated to revision 1.^M
+[vslonovs@sol28 tepo]$ svn add trunk^Msvn: warning: W150002: '/users1/st/vslonovs/tepo/trunk' is already under version control^Msvn: E200009: Could not add all targets because some targets are already versioned^Msvn: E200009: Illegal target for the requested operation^M[vslonovs@sol28 tepo]$ svn co https://github.com/vslonov/Repo2.git .^MChecked out revision 1.^M[vslonovs@sol28 tepo]$ svn add trunk^Msvn: warning: W150002: '/users1/st/vslonovs/tepo/trunk' is already under version control^Msvn: E200009: Could not add all targets because some targets are already versioned^M
+svn: E200009: Illegal target for the requested operation^M[vslonovs@sol28 tepo]$ cd ..^M
+[vslonovs@sol28 ~]$ cd tepo^M[vslonovs@sol28 tepo]$ svnadmin create .^M
+svnadmin: E165002: '/users1/st/vslonovs/tepo' is an existing repository^M
+[vslonovs@sol28 tepo]$ svn co https://github.com/vslonov/Repo2.git .^M
+Checked out revision 1.^M
+[vslonovs@sol28 tepo]$ c^H^[[Ksvn add trunk^Msvn: warning: W150002: '/users1/st/vslonovs/tepo/trunk' is already under version control^Msvn: E200009: Could not add all targets because some targets are already versioned^M
+svn: E200009: Illegal target for the requested operation^M[vslonovs@sol28 tepo]$ svn update^M
+Updating '.':^M
+At revision 1.^M
+[vslonovs@sol28 tepo]$ exit^M
+exit^M
+Script done on Mon 05 Oct 2020 11:25:00 PM EDT
