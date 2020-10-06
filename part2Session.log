@@ -1,0 +1,31 @@
+[vslonovs@sol28 ~]$ mkdir Part2Lab6
+[vslonovs@sol28 ~]$ mv Part1Session.log Part2Lab6
+[vslonovs@sol28 ~]$ cd Part2Lab6
+[vslonovs@sol28 Part2Lab6]$ ls
+Part1Session.log
+[vslonovs@sol28 Part2Lab6]$ log sessionPart2.log
+bash: log: command not found...
+[vslonovs@sol28 Part2Lab6]$ git init
+git add Initialized empty Git repository in /users1/st/vslonovs/Part2Lab6/.git/
+[vslonovs@sol28 Part2Lab6]$ git add Part1Session.log
+[vslonovs@sol28 Part2Lab6]$ git commit -m "Added commands log"
+[master (root-commit) 0998f74] Added commands log
+ 1 file changed, 143 insertions(+)
+ create mode 100644 Part1Session.log
+[vslonovs@sol28 Part2Lab6]$ git branch -M main
+[vslonovs@sol28 Part2Lab6]$ git remote add origin https://github.com/vslonov/RepoMeta.git
+[vslonovs@sol28 Part2Lab6]$ git push -u origin main
+Username for 'https://github.com': vslonov
+Password for 'https://vslonov@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 2.97 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vslonov/RepoMeta.git
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+[vslonovs@sol28 Part2Lab6]$ ls
+Part1Session.log
+[vslonovs@sol28 Part2Lab6]$ exit
+
